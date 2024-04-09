@@ -1,0 +1,27 @@
+/* Custom styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fefefe;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box{
+    text-align: center;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
